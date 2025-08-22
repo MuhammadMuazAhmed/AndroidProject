@@ -10,12 +10,6 @@ An Android app built with **Kotlin** that allows users to:
 
 ---
 
-## 📸 Screenshots
-
-*(Add your app screenshots here)*  
-
----
-
 ## 🚀 Features
 
 - 📡 **Network Scanning** – Detect active devices in the local network  
@@ -35,10 +29,6 @@ app/
 ├── NetworkScanner.kt # Handles network device scanning
 ├── PortScanner.kt # Handles port scanning logic
 └── WifiScannerActivity.kt # Lists nearby Wi-Fi networks
-
-yaml
-Copy
-Edit
 
 ---
 
