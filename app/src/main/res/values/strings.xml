@@ -1,0 +1,13 @@
+<resources>
+    <string name="my_application">Network &amp; Port Scanner</string>
+    <string name="scan_network">Scan Network</string>
+    <string name="scan_ports">Scan Ports</string>
+    <string name="step2_description">Step 2: Select an IP from the list above, then scan ports</string>
+    <string name="results_label">Results:</string>
+    <string name="step1_description">Step 1: Scan your network to find devices</string>
+    <string name="press_scan">1. Press "Scan Network" to discover devices on your network\n2. Tap on any IP address from the results to select it\n3. Press "Scan Ports" to check for open ports on the selected device</string>
+    <string name="start_service">Start Background Service</string>
+    <string name="stop_service">Stop Background Service</string>
+    <string name="background_service_control">Background Service Control</string>
+    <string name="view_background_results">View Background Scan Info</string>
+</resources>
