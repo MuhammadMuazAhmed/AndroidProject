@@ -23,27 +23,34 @@ An Android app built with **Kotlin** that allows users to:
 ## 📂 Project Structure
 
 app/
+
 └── java/com/muaz/myapplication/
+
 ├── MainActivity.kt # Main UI (start/stop scanning, port scanning, WiFi scanning)
+
 ├── ForegroundService.kt # Foreground service to keep scanning alive
+
 ├── NetworkScanner.kt # Handles network device scanning
+
 ├── PortScanner.kt # Handles port scanning logic
+
 └── WifiScannerActivity.kt # Lists nearby Wi-Fi networks
 
 ---
 
 ## ⚙️ Setup & Installation
 
-1. Clone this repository:
+Clone this repository:
    ```bash
    git clone https://github.com/your-username/network-port-scanner.git
+```
 Open the project in Android Studio.
 
 Sync Gradle to install dependencies.
 
 Build & run the app on a real device (⚠️ Wi-Fi scanning may not work on emulators).
 
-🛡️ Permissions
+## 🛡️ Permissions
 This app requires multiple permissions depending on your Android version:
 
 All Versions
@@ -60,7 +67,7 @@ Android 14 (UpsideDownCake, API 34) and above
 
 FOREGROUND_SERVICE_LOCATION → To run background network scans
 
-▶️ Usage
+## ▶️ Usage
 Open the app.
 
 Tap "Scan Network" to find devices.
@@ -73,7 +80,7 @@ Tap "Stop Scan" to end scanning.
 
 Tap "Wi-Fi Scanner" to list nearby Wi-Fi networks.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Language: Kotlin
 
 Architecture: Activity + ForegroundService
@@ -84,10 +91,10 @@ Concurrency: Kotlin Coroutines (lifecycleScope)
 
 Notifications: NotificationCompat with channels
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 This app is built for educational purposes only.
 Use it only on networks you own or have permission to scan. Unauthorized scanning of networks or devices may be illegal.
 
-👨‍💻 Author
+## 👨‍💻 Author
 Developed by MuhammadMuazAhmed ✨
 📧 Contact: [muhammadmuazahmed@gmail.com]
