@@ -1,0 +1,6 @@
+# Tell GitHub Linguist to treat Kotlin as main language
+*.xml linguist-detectable=false
+*.html linguist-detectable=false
+*.gradle linguist-detectable=false
+*.properties linguist-detectable=false
+*.toml linguist-detectable=false
